@@ -6,6 +6,10 @@ options query string
 - _limit: number (limit items in response)
 - _page: number (paginations to skip items of comments)
 
+example
+
+`http://localhost:3004/comments?_limit=10&_page=1`
+
 
 ### `yarn start`
 Runs the app in the development mode.\
